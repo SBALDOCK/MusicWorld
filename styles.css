@@ -8,37 +8,45 @@ html {
     font-family: helvetica;
     background-color: #A9A9A9;
   }
-.container {
-    font-size: 100px;
-    position: relative;
-    text-align: center;
-    color: black;
-}
-.centered {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
  }  
+
+ .container {
+  position: relative;
+  text-align: center;
+  color: black;
+ }
+ .centered {
+  font-size: 75px;
+  color: black;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ #radio {
+   margin-bottom: 50px; 
+ }
  
- #nav {
+ .nav {
+  font-size: 25px;
   text-align: center;
   min-width: 500px;
- 
-
 }
-#nav:after {
+
+.nav:after {
   content: '';
   display: inline-block;
   width: 100%;
 }
-#nav li {
-  margin: 2px 20px; 
+.nav li {
+  margin: 5px 30px 20px 30px; 
   position: relative;
   display: inline-block;
 }
 
   h2 {
+    margin: 20px 20px ;
     color: black;
     text-align: center;
   }
@@ -66,6 +74,7 @@ html {
     box-shadow: 10px 10px 5px gray;
     border-radius: 25px;
   }
+
 
 
  
