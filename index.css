@@ -19,19 +19,51 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
 
-nav {
-    background-color: black;
-    }
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-      }
-
- nav ul li {
-    color: white;
-    display: inline-block;
-    margin: 20px;
-    font-size: 24px;
  }  
+
+ .nav {
+   display: flex;
+ }
+
+ nav {
+  text-align: center;
+  margin: 20px 0 0 ;
+  padding: 10px 0;
+  }
+  
+  nav ul{
+    margin:0 3rem 0 0;
+    padding:0;
+    list-style:none;
+    display:flex;
+    flex:1 0 0%;
+    justify-content:space-between
+  }
+  
+  nav li {
+     display: inline-block;
+     padding: 5px 5px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+ .pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } 
+
+  p {
+    text-align: center;
+  }
+
+  .bill {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+ 
