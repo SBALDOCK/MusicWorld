@@ -74,14 +74,24 @@ html {
     box-shadow: 10px 10px 5px gray;
     border-radius: 25px;
   }
+
+  a {
+    background-color: #463d3d46;
+    color: white;
+    padding: 7px 25px;
+    text-align: center;
+    border-radius: 25px;
+    text-decoration: none;
+    display: inline-block;
+  }
   a:link {
     color: black;
     text-decoration: none;
- 
   }
   a:hover {
-   color: maroon; 
+    color: maroon;
   }
+ 
  
 
 
