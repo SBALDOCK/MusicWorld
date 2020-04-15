@@ -22,7 +22,7 @@ html {
  }  
  
  #nav {
-  text-align: justify;
+  text-align: center;
   min-width: 500px;
 }
 #nav:after {
