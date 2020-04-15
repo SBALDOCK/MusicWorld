@@ -44,6 +44,8 @@ html {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    box-shadow: 10px 10px gray;
+
   } 
 
   p {
@@ -56,5 +58,8 @@ html {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    box-shadow: 10px 10px gray;
   }
+
+
  
