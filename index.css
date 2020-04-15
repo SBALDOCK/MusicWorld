@@ -1,0 +1,19 @@
+html {
+    height: 100%;
+  }
+  body {
+    margin: 0;
+    height: 100%;
+    font-family: helvetica;
+  }
+.container {
+    font-size: 100px;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
