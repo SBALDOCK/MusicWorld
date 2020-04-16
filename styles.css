@@ -18,7 +18,7 @@ html {
   font-size: 75px;
   color: black;
   position: absolute;
-  top: 10%;
+  top: 7%;
   left: 50%;
   transform: translate(-50%, -50%);
  }
@@ -27,16 +27,25 @@ html {
   font-size: 20px;
   color: black;
   position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+ #demo {
+  font-size: 15px;
+  color: maroon;
+  position: absolute;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
  }
 
  #genre {
-  font-size: 20px;
-  color: black;
+  font-size: 15px;
+  color: maroon;
   position: absolute;
-  top: 25%;
+  top: 24%;
   left: 50%;
   transform: translate(-50%, -50%);
  }

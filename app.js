@@ -14,10 +14,16 @@ if (hourNow > 18) {
 
 document.write('<h3>' + greeting + '</h3>');
 
+var person = prompt("Please enter your name", "Frank Zappa");
+
+if (person != null) {
+  document.getElementById("demo").innerHTML =
+  "Hello " + person + "! How are you today?";
+}
 
 var genre = prompt("Please enter your favorite genre of music", "Soul");
 
 if (genre != null) {
   document.getElementById("genre").innerHTML =
-  "Great choice you funky beast!";
+  "Great taste in tunes you funky beast!";
 }
