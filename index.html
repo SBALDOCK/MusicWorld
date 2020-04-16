@@ -42,11 +42,17 @@
     <footer>
         
         <ul class="nav">
-            <li><a class="dork" href="https:naptster.com"> Napster</a></li>
+            <li><a id="demo" onclick="myFunction()" class="dork" > Napster</a></li>
             <li><a class="dork" href="https:myspace.com">Myspace</a></li>
         </ul>
        
     </footer>
 
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "You Should Be Ashamed Of Yourself. Pirating music is illegal.";
+        }
+    </script>
+    <script src="app.js"></script>
 </body>
 </html>
