@@ -12,12 +12,12 @@ if (hourNow > 18) {
     greeting = 'You should seriously listen to Bill Withers my dudes!';
 }
 
-document.write('<h3>' + greeting + '</h3>');
+// document.write('<h3>' + greeting + '</h3>');
 
 
-var person = prompt("Please enter your favorite genre of music", "Soul");
+var genre = prompt("Please enter your favorite genre of music", "Soul");
 
-if (person != null) {
+if (genre != null) {
   document.getElementById("genre").innerHTML =
   "Great choice you funky beast!";
 }
