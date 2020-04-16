@@ -31,9 +31,9 @@ function myFunction() {
 }
 
 
-//  var genre = prompt("Please enter your favorite genre of music", "Soul");
+/*var genre = prompt("Please enter your favorite genre of music", "Soul");
 
-// if (genre != null) {
-  // document.getElementById("genre").innerHTML =
-  // "Great taste in tunes you funky beast!";
-// }
+ if (genre != null) {
+   document.getElementById("genre").innerHTML =
+   "Great taste in tunes you funky beast!";
+ }*/
