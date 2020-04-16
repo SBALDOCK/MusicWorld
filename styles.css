@@ -31,7 +31,15 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
  }
-}
+
+ #genre {
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
 
  #radio {
    margin-bottom: 50px; 
@@ -111,7 +119,7 @@ html {
   h3 {
     text-align: center;
     color: black;
-    
+
   }
  
 

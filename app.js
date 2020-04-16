@@ -13,3 +13,11 @@ if (hourNow > 18) {
 }
 
 document.write('<h3>' + greeting + '</h3>');
+
+
+var person = prompt("Please enter your favorite genre of music", "Soul");
+
+if (person != null) {
+  document.getElementById("genre").innerHTML =
+  "Great choice you funky beast!";
+}
