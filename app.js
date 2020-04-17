@@ -27,8 +27,25 @@ function askBand() {
   }
 }
 
-askName();
-askBand()
+function studioAlbumGame() {
+
+  var correctAnswer = 8;
+
+  for(var i = 0; i < 4; i = i + 1){
+      var numberGuess = prompt('How many albums did Bill Withers release?');
+      if(numberGuess == correctAnswer){
+          alert('You know your stuff!');
+          break;
+      } else {
+          alert('Not quite!');
+      }
+      if (i == '3') {
+          alert('Time to do your research!');
+        
+      }
+  }
+}
+
 
 function myFunction() {
   var genre = prompt('What is your favorite genre of music?');
@@ -42,6 +59,9 @@ function myFunction() {
   
   alert(response);
 }
+  askName();
+  askBand();
+  studioAlbumGame();
   myFunction();
 
 /*function getTimeofDay() {
