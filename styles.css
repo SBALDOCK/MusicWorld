@@ -32,15 +32,6 @@ html {
   transform: translate(-50%, -50%);
  }
 
- #demo {
-  font-size: 15px;
-  color: maroon;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
- }
-
  #genre {
    font-size: 15px;
    color: maroon;
@@ -129,8 +120,9 @@ html {
   h3 {
     text-align: center;
     color: black;
-
   }
+
+
  
 
 

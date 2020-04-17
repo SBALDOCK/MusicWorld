@@ -58,16 +58,13 @@ function myFunction() {
   }  
   
   alert(response);
-}
-  askName();
-  askBand();
-  studioAlbumGame();
-  myFunction();
-
-/*function getTimeofDay() {
+ }
+ 
   var today = new Date();
   var hourNow = today.getHours();
   var greeting;
+
+function getTimeofDay() {
 
   if (hourNow > 18) {
     greeting = 'Ah, I see you dig that evening music!';
@@ -78,23 +75,24 @@ function myFunction() {
   } else {
     greeting = 'I dig your vibe.';
   }
+    document.write('<h3>' + greeting + '</3>');
+}
+askName();
+askBand();
+studioAlbumGame();
+myFunction();
+getTimeofDay();
 
-    document.write('<h3>' + greeting + '</3>');*/
 
-/*function myFunction() {
-  var genre = prompt("What's your favorite genre of music?", "Soul");
-  var response;
+/*function myFavorite() {
+  var genre = prompt("Name your favorite artist?");
+            alert('Great taste in tunes you funky beast!');
 
-  if (genre = funk) {
-    response = 'I see you have the phunk deep inside of you.';
-  } else {
-    greeting = 'I would have preferred if it was funk, but this will do.';
-  }
-  
-  document.write('<h3>' + response + '</h3>')*/
+}
+    document.write('<h4>' + response + '</h4>')
 
-    // document.getElementById("genre").innerHTML =
-    // "Great taste in tunes you funky beast!";
+    document.getElementById("genre").innerHTML =
+    "Great taste in tunes you funky beast!";*/
 
 
 
@@ -104,20 +102,4 @@ function myFunction() {
 
 // askBand();
 
-
-/*var today = new Date();
-var hourNow = today.getHours(); 
-var greeting;
-
-if (hourNow > 18) {
-  greeting = 'Ah, I see you dig that evening music!';
-} else if (hourNow > 12) {
-  greeting = 'You dig those lunchtime beats? Peachy.';
-} else if (hourNow > 0) {
-  greeting = 'I see you dig those morning tunes. Nice.';
-} else {
-  greeting = 'Dig those funky tunes';
-}
-
-document.write('<h3>' + greeting + '</h3>');*/
 
